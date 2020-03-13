@@ -1,6 +1,8 @@
 ;设置规则标志位
 surge_ruleset=🎯 全球直连,rules/LocalAreaNetwork.list
 surge_ruleset=🎯 全球直连,rules/ConnersHua/Surge/Ruleset/Unbreak.list
+surge_ruleset=🛑 全球拦截,rules/NobyDa/Surge/AdRule.list
+surge_ruleset=🛑 全球拦截,rules/ConnersHua/Surge/Ruleset/Hijacking.list
 surge_ruleset=🛑 全球拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
 surge_ruleset=🛑 全球拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
 surge_ruleset=🔰 节点选择,rules/ConnersHua/Surge/Ruleset/Global.list
@@ -13,6 +15,7 @@ surge_ruleset=📺 巴哈姆特,rules/ConnersHua/Surge/Ruleset/Media/Bahamut.lis
 surge_ruleset=🎥 NETFLIX,rules/ConnersHua/Surge/Ruleset/Media/Netflix.list
 surge_ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
 surge_ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
+surge_ruleset=🎯 全球直连,rules/ConnersHua/Surge/Ruleset/China.list
 surge_ruleset=🎯 全球直连,[]GEOIP,CN
 surge_ruleset=🐟 漏网之鱼,[]FINAL
 ;设置规则标志位
