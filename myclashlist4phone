@@ -7,6 +7,7 @@ surge_ruleset=🛑 全球拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SS
 surge_ruleset=🛑 全球拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
 surge_ruleset=🔰 节点选择,rules/ConnersHua/Surge/Ruleset/Global.list
 surge_ruleset=🌍 国外媒体,rules/ConnersHua/Surge/Ruleset/GlobalMedia.list
+surge_ruleset=🌍 反贼媒体,https://raw.githubusercontent.com/pass20162987/weblist/master/list?token=ANRSG7ACTKOQTU3MCXG45US62NM46
 surge_ruleset=🌏 国内媒体,rules/lhie1/Surge3/Domestic.list
 surge_ruleset=📲 电报吹水,rules/ConnersHua/Surge/Ruleset/Telegram.list
 surge_ruleset=🍎 苹果服务,rules/ConnersHua/Surge/Ruleset/Apple.list
@@ -21,17 +22,18 @@ surge_ruleset=🐟 漏网之鱼,[]FINAL
 ;设置规则标志位
 
 ;设置分组标志位
-custom_proxy_group=🔰 节点选择`select`[]♻️ 延迟最低`[]✈ 故障切换`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇷🇺 俄罗斯节点`[]📌 手动切换`[]DIRECT
+custom_proxy_group=🔰 节点选择`select`[]♻️ 延迟最低`[]IPLC`[]📌 手动切换`[]✈ 故障切换`[]公益节点`[]VIP1`[]VIP2`[]VIP3`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇷🇺 俄罗斯节点`[]🎯 全球直连
 custom_proxy_group=📌 手动切换`select`.*
 custom_proxy_group=♻️ 延迟最低`url-test`.*`http://www.gstatic.com/generate_204`500
 custom_proxy_group=✈ 故障切换`fallback`.*`http://www.gstatic.com/generate_204`500
 custom_proxy_group=🌍 国外媒体`select`[]🔰 节点选择`[]📌 手动切换`[]♻️ 延迟最低`[]✈ 故障切换`[]🎯 全球直连
+custom_proxy_group=🌍 反贼媒体`select`[]私人`[]🔰 节点选择`[]📌 手动切换`[]♻️ 延迟最低`[]✈ 故障切换`[]🎯 全球直连
 custom_proxy_group=🌏 国内媒体`select`[]🎯 全球直连`[]🔰 节点选择`[]📌 手动切换`[]♻️ 延迟最低`[]✈ 故障切换
-custom_proxy_group=📲 电报吹水`select`[]🔰 节点选择`[]📌 手动切换`[]♻️ 延迟最低`[]✈ 故障切换`[]🎯 全球直连
-custom_proxy_group=🍎 苹果服务`select`[]DIRECT`[]🔰 节点选择`[]📌 手动切换`[]♻️ 延迟最低`[]✈ 故障切换`[]🎯 全球直连
-custom_proxy_group=🎥 NETFLIX`select`[]🎥 奈非节点`[]DIRECT
-custom_proxy_group=📺 巴哈姆特`select`[]🇨🇳 台湾节点`[]🔰 节点选择`[]DIRECT
-custom_proxy_group=🎧 Spotify`select`[]🔰 节点选择`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇷🇺 俄罗斯节点`[]DIRECT
+custom_proxy_group=📲 电报吹水`select`[]🎯 全球直连`[]🔰 节点选择`[]📌 手动切换`[]♻️ 延迟最低`[]✈ 故障切换`
+custom_proxy_group=🍎 苹果服务`select`T`[]🔰 节点选择`[]📌 手动切换`[]♻️ 延迟最低`[]✈ 故障切换`[]🎯 全球直连
+custom_proxy_group=🎥 NETFLIX`select`[]🎥 奈非节点`[]🎯 全球直连
+custom_proxy_group=📺 巴哈姆特`select`[]🇨🇳 台湾节点`[]🔰 节点选择`[]🎯 全球直连
+custom_proxy_group=🎧 Spotify`select`[]🔰 节点选择`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇷🇺 俄罗斯节点`[]🎯 全球直连
 custom_proxy_group=🎯 全球直连`select`[]DIRECT`[]🔰 节点选择`[]♻️ 延迟最低
 custom_proxy_group=🛑 全球拦截`select`[]REJECT`[]DIRECT
 custom_proxy_group=🐟 漏网之鱼`select`[]🔰 节点选择`[]♻️ 延迟最低`[]✈ 故障切换`[]DIRECT`[]REJECT
@@ -41,5 +43,11 @@ custom_proxy_group=🇸🇬 狮城节点`url-test`(新|狮城|SG|新加坡)`http
 custom_proxy_group=🇯🇵 日本节点`url-test`(日本|日|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|jp|rb)`http://www.gstatic.com/generate_204`500
 custom_proxy_group=🇺🇲 美国节点`url-test`(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US)`http://www.gstatic.com/generate_204`500
 custom_proxy_group=🇷🇺 俄罗斯节点`url-test`(俄|俄罗斯|莫斯科|RU|els|ELS)`http://www.gstatic.com/generate_204`500
+custom_proxy_group=公益节点`url-test`(公益节点|V0)`http://www.gstatic.com/generate_204`500
+custom_proxy_group=VIP1`url-test`(V1|VIP1|VIP01)`http://www.gstatic.com/generate_204`500
+custom_proxy_group=VIP2`url-test`(V2|VIP2|VIP02)`http://www.gstatic.com/generate_204`500
+custom_proxy_group=VIP3`url-test`(V3|VIP3|VIP03)`http://www.gstatic.com/generate_204`500
+custom_proxy_group=IPLC`url-test`(IPLC)`http://www.gstatic.com/generate_204`500
+custom_proxy_group=私人`url-test`(翻墙|爬墙|免流)`http://www.gstatic.com/generate_204`500
 custom_proxy_group=🎥 奈非节点`select`(NF|解锁|Netflix|NETFLIX|奈非|网飞)
 ;设置分组标志位
