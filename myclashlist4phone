@@ -43,11 +43,11 @@ custom_proxy_group=🇸🇬 狮城节点`url-test`(新|狮城|SG|新加坡)`http
 custom_proxy_group=🇯🇵 日本节点`url-test`(日本|日|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|jp|rb)`http://www.gstatic.com/generate_204`500
 custom_proxy_group=🇺🇲 美国节点`url-test`(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US)`http://www.gstatic.com/generate_204`500
 custom_proxy_group=🇷🇺 俄罗斯节点`url-test`(俄|俄罗斯|莫斯科|RU|els|ELS)`http://www.gstatic.com/generate_204`500
-custom_proxy_group=公益节点`select`(公益节点|V0)`http://www.gstatic.com/generate_204`500
-custom_proxy_group=VIP1`selectt`(V1|VIP1|VIP01)`http://www.gstatic.com/generate_204`500
-custom_proxy_group=VIP2`select`(V2|VIP2|VIP02)`http://www.gstatic.com/generate_204`500
-custom_proxy_group=VIP3`select`(V3|VIP3|VIP03)`http://www.gstatic.com/generate_204`500
-custom_proxy_group=IPLC`select`(IPLC)`http://www.gstatic.com/generate_204`500
-custom_proxy_group=私人`select`(翻墙|爬墙|免流)`http://www.gstatic.com/generate_204`500
+custom_proxy_group=公益节点`select`(公益节点|V0)
+custom_proxy_group=VIP1`selectt`(V1|VIP1|VIP01)
+custom_proxy_group=VIP2`select`(V2|VIP2|VIP02)
+custom_proxy_group=VIP3`select`(V3|VIP3|VIP03)
+custom_proxy_group=IPLC`select`(IPLC)
+custom_proxy_group=私人`select`(翻墙|爬墙|免流)
 custom_proxy_group=🎥 奈非节点`select`(NF|解锁|Netflix|NETFLIX|奈非|网飞)
 ;设置分组标志位
